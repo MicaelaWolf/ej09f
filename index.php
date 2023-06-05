@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ejercicio09</title>
 </head>
 
 <body>
@@ -41,9 +41,12 @@
     <label for="suscripcion">Suscripción: </label>
     <input type="radio" name="suscripcion">Anual</input>
     <input type="radio" name="suscripcion">Mensual</input>
-    <input type="hidden">
-    <input type="checkbox">
-    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="hidden" id="token">
+    <input type="checkbox" id="box1" value="favorito_uno">
+    <label for="box1">Favorito uno</label>
+    <input type="checkbox" id="box2" value="favorito_dos">
+    <label for="box2">Favorito dos</label>
+    <textarea name="comentario" cols=" 30" rows="10">Escribe aquí tus comentarios...</textarea>
     <button type="reset">Enviar</button>
     <button type="submit">Borrar</button>
   </form>
