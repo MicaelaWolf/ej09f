@@ -1,3 +1,7 @@
-<?php 
-$_POST ['Nombre'];
-var_dump($_POST); ?>
+<?php
+/* sensible a mayusculas y minusculas */
+
+$nombre = $_POST['nombre'] ?? "nombreDefecto";
+echo "<pre>";
+var_dump($_POST);
+echo "</pre>";
